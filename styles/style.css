@@ -1,0 +1,32 @@
+div#fixednav{
+    position: fixed;
+    top: 0;    
+}
+
+div#seminav{
+    position: relative;
+    top: 100px;
+}
+
+aside{
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    left: 50%;
+    border: 1px solid grey;
+}
+
+div#main{
+    position: relative;
+    top: 200px;
+    right: 70%;
+    left: 10%;
+    display: inline-block;
+}
+
+p{
+    position: inherit;
+    display: inherit;
+
+}
+
