@@ -1,3 +1,25 @@
+body{
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: small;
+}
+
+h2{
+    font-size: 18px;
+}
+
+a{
+    text-decoration-line: none;
+    color: #1a0dab;
+}
+
+a.reslink{
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color:#006621;
+}
+
 div#fixednav{
     position: fixed;
     top: 0;    
@@ -13,6 +35,39 @@ img#logo{
     width: 92px;
 }
 
+input#search{
+    position: absolute;
+    width: 522px;
+    height: 30px;
+    padding-right: 84px;
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid rgba(175,175,175,0.3);
+    border-radius: 25px;
+}
+
+input#signin{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    background-color: rgb(66, 133, 244);
+    width: 72px;
+    height: 30px;
+    padding: 0 12px 0 12px;
+    margin: 0;
+    border: 1px solid rgb(66, 133, 244);
+    border-radius: 2px;
+    color: #f2f2f2;
+    text-align: right;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: black;
+    opacity: 1;
+    font: 14px sans-serif;
+}
 div#seminav{
     position: absolute;
     top: 64px;
@@ -26,7 +81,7 @@ div#navleft{
     position: relative;
     margin-top: 40px;
     margin-bottom: 0;
-    left: 10%;
+    left: 12%;
 }
 
 div#offset{
@@ -45,14 +100,15 @@ aside{
 
 p#results{
     position: relative;
-    margin-top: 130px;
-    left: 10%;
+    margin-top: 133px;
+    left: 12%;
+    color: #808080;
 }
 
 div#main{
     position: relative;
     margin-top: 28px;
-    left: 10%;
+    left: 12%;
     width: 592px;
     display: inline-block;
     border: 1px solid black;
@@ -64,3 +120,14 @@ p{
 
 }
 
+article{
+    position: static;
+    margin-bottom: 25px;
+    font-size: small;
+    color: #545454;
+    line-height: 1.5;
+}
+
+em.bold{
+    font-weight: bold;
+}
