@@ -2,30 +2,56 @@ div#fixednav{
     position: fixed;
     top: 0;    
     width: 1345px;
-    height: 64px;
+    height: 52px;
     border-bottom: 1px solid black;
 }
 
+img#logo{
+    margin-top: 18px;
+    margin-left: 33px;
+    height: 29px;
+    width: 92px;
+}
+
 div#seminav{
-    position: relative;
+    position: absolute;
     top: 64px;
     width: 1345px;
     height: 58px;
+    border-top: 1px solid white;
     border-bottom: 1px solid black;
+}
+
+div#navleft{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 0;
+    left: 10%;
+}
+
+div#offset{
+    position: relative;
+    top: -18px;
+    left: 45%;
 }
 
 aside{
     position: absolute;
-    top: 222px;
+    top: 174px;
     right: 5%;
     width: 454px;
     border: 1px solid grey;
 }
 
+p#results{
+    position: relative;
+    margin-top: 130px;
+    left: 10%;
+}
+
 div#main{
     position: relative;
-    margin-top: 5px;
-    top: 58px;
+    margin-top: 28px;
     left: 10%;
     width: 592px;
     display: inline-block;
