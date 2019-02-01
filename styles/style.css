@@ -90,12 +90,97 @@ div#offset{
     left: 45%;
 }
 
-aside{
+aside#infobox{
     position: absolute;
     top: 174px;
     right: 5%;
     width: 454px;
     border: 1px solid grey;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+div#imgbox{
+    position: relative;
+    height: 186px;
+    width: 454px;
+    display: inline;
+}
+
+img#ib1{
+    position: absolute;    
+}
+
+
+img#ib2{
+    position: absolute;
+    left: 136px;    
+}
+
+
+img#ib3{
+    position: absolute;
+    left: 221px; 
+}
+
+
+img#ib4{
+    position: absolute;
+    left: 378px;    
+}
+
+
+img#ib5{
+    position: absolute;
+    top: 97px;
+    left: 136px;
+    width: 134px;
+    height: 89px;    
+}
+
+
+img#ib6{
+    position: absolute;
+    top: 97px;
+    left: 270px;    
+}
+
+
+img#ib7{
+    position: absolute;
+    top: 97px;
+    left: 381px;
+}
+
+
+div#exportbox{
+    position: relative;
+    top: 186px;
+}
+
+div#linkbox{
+    position: relative;
+    top: 186px;
+}
+
+div#biobox{
+    position: relative;
+    top: 186px;
+}
+
+div#quotebox{
+    position: relative;
+    top: 186px;
+}
+
+div#bookbox{
+    position: relative;
+    top: 186px;
+}
+
+div#profilebox{
+    position: relative;
+    top: 186px;
 }
 
 p#results{

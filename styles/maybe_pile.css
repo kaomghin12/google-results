@@ -1,0 +1,21 @@
+
+
+div#toprow{
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 138px;
+    height: 92px;
+    width: 375px;
+    display: inline-block;
+}
+
+div#bottomrow{
+    overflow: hidden;
+    position: relative;
+    top: 94px;
+    left: 138px;
+    height: 92px;
+    width: 375px;
+    display: inline-block;
+}
