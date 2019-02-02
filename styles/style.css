@@ -95,8 +95,9 @@ aside#infobox{
     top: 174px;
     right: 5%;
     width: 454px;
-    border: 1px solid grey;
-    border-radius: 10px;
+    height: 186px;
+    border-top: 1px solid white;
+    border-radius: 8px;
     overflow: hidden;
 }
 
@@ -105,51 +106,74 @@ div#imgbox{
     height: 186px;
     width: 454px;
     display: inline;
+    overflow: hidden;
 }
 
 img#ib1{
-    position: absolute;    
+    position: absolute;
+    border: 1px solid white;
+    overflow: hidden;
 }
 
 
 img#ib2{
     position: absolute;
     left: 136px;    
+    border: 1px solid white;
+    overflow: hidden;
 }
 
 
 img#ib3{
     position: absolute;
-    left: 221px; 
+    left: 221px;
+    width: 147px;
+    height: 98px;
+    border: 1px solid white;
+    overflow: hidden;
 }
 
 
 img#ib4{
     position: absolute;
-    left: 378px;    
+    left: 369px; 
+    width: 85px;
+    height: 120px;   
+    border: 1px solid white;
+    overflow: hidden;
 }
 
 
 img#ib5{
     position: absolute;
     top: 97px;
-    left: 136px;
+    left: 130px;
     width: 134px;
     height: 89px;    
+    border: 1px solid white;
+    overflow: hidden;
 }
 
 
 img#ib6{
     position: absolute;
     top: 97px;
-    left: 270px;    
+    left: 260px;
+    width: 148px;
+    height: 89px; 
+    border: 1px solid white;
+    overflow: hidden;
 }
 
 
 img#ib7{
     position: absolute;
     top: 97px;
-    left: 381px;
+    left: 383px;
+    width: 71px;
+    height: 106px;
+    border: 1px solid white;
+    overflow: hidden;
 }
 
 
