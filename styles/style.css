@@ -3,6 +3,11 @@ body{
     font-size: small;
 }
 
+h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+
 h2{
     font-size: 18px;
 }
@@ -95,9 +100,8 @@ aside#infobox{
     top: 174px;
     right: 5%;
     width: 454px;
-    height: 186px;
     border-top: 1px solid white;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -107,6 +111,7 @@ div#imgbox{
     width: 454px;
     display: inline;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 img#ib1{
@@ -121,6 +126,7 @@ img#ib2{
     left: 136px;    
     border: 1px solid white;
     overflow: hidden;
+    z-index: -1;
 }
 
 
@@ -131,6 +137,7 @@ img#ib3{
     height: 98px;
     border: 1px solid white;
     overflow: hidden;
+    z-index: -1;
 }
 
 
@@ -141,6 +148,7 @@ img#ib4{
     height: 120px;   
     border: 1px solid white;
     overflow: hidden;
+    z-index: -1;
 }
 
 
@@ -152,6 +160,7 @@ img#ib5{
     height: 89px;    
     border: 1px solid white;
     overflow: hidden;
+    z-index: -1;
 }
 
 
@@ -163,6 +172,7 @@ img#ib6{
     height: 89px; 
     border: 1px solid white;
     overflow: hidden;
+    z-index: -1;
 }
 
 
@@ -174,12 +184,19 @@ img#ib7{
     height: 106px;
     border: 1px solid white;
     overflow: hidden;
+    z-index: -1;
 }
-
 
 div#exportbox{
     position: relative;
     top: 186px;
+    width: inherit;
+    height: 56px;
+    border: 1px solid gray;
+    line-height: 16.12px;
+    font-size: 13px;
+    margin: 0;
+    padding: 15px 0px 10px 0px;
 }
 
 div#linkbox{
